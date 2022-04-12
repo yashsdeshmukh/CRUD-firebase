@@ -8,7 +8,7 @@
     android:divider="@drawable/spaceing"
     android:showDividers="middle"
     android:gravity="center"
-    android:background="#06113C"
+    android:backgroundTint="#E7D9EA"
     android:orientation="vertical">
 
     <EditText
@@ -16,32 +16,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:background="@drawable/text"
-        android:hint="User Name"
+        android:backgroundTint="@drawable/text"
+        android:hint="Username"
+        android:textColor="@color/black"
         android:padding="10dp"
         />
     <EditText
-        android:background="@drawable/text"
+        android:backgroundTint="@drawable/text"
         android:id="@+id/editTxtEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:padding="10dp"
+        android:textColor="@color/black"
         tools:layout_editor_absoluteX="101dp"
         tools:layout_editor_absoluteY="258dp"
         android:hint="Email"/>
     <EditText
-        android:background="@drawable/text"
+        android:backgroundTint="@drawable/text"
         android:id="@+id/editTxtNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:padding="10dp"
+        android:textColor="@color/black"
         tools:layout_editor_absoluteX="101dp"
         tools:layout_editor_absoluteY="258dp"
         android:hint="Number"/>
     <Button
-        android:background="@drawable/btn"
+        android:backgroundTint="#FF5F00"
         android:id="@+id/btnSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>

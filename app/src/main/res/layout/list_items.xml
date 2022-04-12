@@ -5,7 +5,11 @@
     android:orientation="horizontal"
     android:divider="@drawable/spaceing"
     android:showDividers="middle"
-    android:paddingBottom="20dp"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:paddingBottom="10dp"
     android:gravity="center"
     android:background="#06113C"
 
@@ -13,28 +17,23 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:elevation="10dp"
-
-        >
+        android:elevation="10dp">
         <LinearLayout
             xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
             android:divider="@drawable/spaceing"
             android:showDividers="middle"
-            android:paddingBottom="20dp"
-
-            android:gravity="center"
-
-            >
+            android:padding="7dp"
+            android:gravity="center">
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:id="@+id/textItem"
-                android:paddingLeft="20dp"
                 android:textSize="20dp"
-                android:paddingRight="10dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="5dp"
+                android:textAlignment="center"
                 android:layout_weight="3"
                 android:background="@drawable/text"
                 android:textColor="#000000"
@@ -44,6 +43,7 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:layout_weight="1"
+                android:paddingRight="10dp"
                 android:gravity="center"
                 android:layout_gravity="center"
                 >
@@ -51,26 +51,23 @@
                     android:id="@+id/editList_items"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/btn"
-                    android:paddingRight="10dp"
+                    android:backgroundTint="#7B6CF6"
                     android:text="Edit"
                     />
 
                 <Button
-                    android:background="@drawable/btn"
+                    android:backgroundTint="#5432D3"
                     android:id="@+id/deleteList_items"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingRight="10dp"
                     android:text="Delete"
                     android:layout_marginLeft="10dp"/>
 
                 <Button
-                    android:background="@drawable/btn"
+                    android:backgroundTint="#241E92"
                     android:id="@+id/readList_items"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingRight="10dp"
                     android:text="Read"
                     android:layout_marginLeft="10dp"/>
             </LinearLayout>
